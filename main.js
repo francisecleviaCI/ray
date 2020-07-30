@@ -12,14 +12,18 @@ const Ray = function() {
     includes: function(){
 
     },
+
     indexOf: function(){
 
     },
+
     shift: function(){
-
+    this.length = this.length - 1;
     },
-    unshift: function(){
 
+    unshift: function(){
+    this.length = this.length + 1;
+    
     },
 
 
